@@ -1,0 +1,73 @@
+$primary-black-shade: #111010da;
+$secondary-black-shade: #1b1a1aea;
+$titles: #880808;
+$text: #696161;
+$white: #ffffff;
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.outer-container--primary {
+  background-color: #111010;
+  height: 100vh;
+
+  .outer-container--secondary {
+    background-color: #1b1a1a;
+    border-radius: 10px;
+    height: 80vh;
+  }
+}
+
+.app-title {
+  color: $titles;
+  padding: 15px 15px 0 0;
+}
+
+hr {
+  &.full {
+    width: 100%;
+    border-color: $titles;
+  }
+}
+
+.todo-form {
+  .todo-form--inner {
+    color: $text;
+
+    .todo-item-field {
+      min-width: 400px;
+    }
+
+    .priority-check {
+
+      .priority-check--label {
+        display: inline;
+      }
+    }
+  }
+}
+
+.mngr-list {
+  border: 1px solid $titles;
+  border-radius: 10px;
+  max-height: 420px;
+  overflow: hidden;
+  overflow-y: scroll;
+
+  .mngr-list--heading {
+    color: $titles;
+  }
+}
+
+.todo-item {
+  color: $text;
+  border: 1px solid $titles;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+
+  .todo-desc {
+    color: $white;
+  }
+}

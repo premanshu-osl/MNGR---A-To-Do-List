@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>ToDoList</title>
+</head>
+
+<body>
+  <div class="outer-container--primary container-fluid d-flex align-items-center justify-content-center">
+    <div class="outer-container--secondary container">
+      <div class="inner-container--primary container-fluid">
+        <h1 class="app-title text-right">MNGR</h1>
+        <hr class="full">
+
+        <div class="todo-form container">
+          <form class="todo-form--inner form-inline d-flex justify-content-between">
+            <div class="col-10 d-flex justify-content-between">
+                <input type="text" class="todo-item-field form-control" id="todo-item-field" placeholder="What do you want TO-DO?">
+                <input type="date" class="form-control" id="todo-date" max="2030-12-31">
+                <div class="priority-check form-check">
+                  <label class="priority-check--label form-check-label">
+                    <input class="form-check-input" type="checkbox"> Important
+                  </label>
+                </div>
+            </div>
+            <div class="col-2  text-right">
+                <button type="button" class="btn btn-danger" id="subtn">Add ToDo</button>
+            </div>
+          </form>
+        </div>
+
+        <hr class="full">
+
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-between">
+            <div class="col-3 mngr-list mngr-list--todo" id="mngr-list--todo">
+              <h2 class="mngr-list--heading text-center">To Do</h2>
+              <div class="todo-item">
+                <p class="todo-desc">todo todo todotodotodo todo todo todotodotodo </p>
+                <div class="todo-details d-flex justify-content-between">
+                    <small class="priority">priority</small>
+                    <small class="status">status</small>
+                    <small class="date">date</small>
+                </div>
+              </div>
+              <div class="todo-item">
+                  <p class="todo-desc">todo todo todotodotodo todo todo todotodotodo </p>
+                  <div class="todo-details d-flex justify-content-between">
+                      <small>priority</small>
+                      <small>status</small>
+                      <small>date</small>
+                  </div>
+                </div>
+            </div>
+            <div class="col-3 mngr-list">
+                <h2 class="mngr-list--heading text-center">In Progress</h2>
+                <div class="todo-item">
+                    <p class="todo-desc">todo todo todotodotodo todo todo todotodotodo </p>
+                    <div class="todo-details d-flex justify-content-between">
+                        <small>priority</small>
+                        <small>status</small>
+                        <small>date</small>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 mngr-list">
+                <h2 class="mngr-list--heading text-center">Completed</h2>
+                <div class="todo-item">
+                    <p class="todo-desc">todo todo todotodotodo todo todo todotodotodo </p>
+                    <div class="todo-details d-flex justify-content-between">
+                        <small>priority</small>
+                        <small>status</small>
+                        <small>date</small>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

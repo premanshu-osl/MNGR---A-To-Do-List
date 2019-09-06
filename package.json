@@ -1,0 +1,14 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "A to do list to keep track of your priorities",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss -w dist/css/main.css -o --recursive"
+  },
+  "author": "Premanshu Pareek",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
